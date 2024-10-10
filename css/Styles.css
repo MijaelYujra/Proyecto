@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    background: url(../img/Logo_robot.png) no-repeat 80% 80%;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
+    float: left;
+    padding-left: 30px;
+}
+
+nav {
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #8f8f8fe6;
+    width: 100%;
+}
+
+.menu {
+    position: absolute;
+    right: 50px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: "Mukta", sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    font-style: normal;
+    padding: 0px 10px;
+}
+
+.menu a:hover {
+    color: #4256ca;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/Technology.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.mukta-light {
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.mukta-bold {
+    font-family: "Mukta", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    margin: 0px 40px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+h1 {
+    padding-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.disc {
+    justify-content: center;
+    display: flex;
+}
+
+li {
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
